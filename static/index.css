@@ -1,0 +1,245 @@
+div.float {
+	margin-left: 20px;
+	margin-left: 20px;
+	float: left;
+	width: 48%;
+}
+
+div.float.small {
+	width: 40%;
+}
+
+div.float.big {
+	width: 55%;
+}
+
+div.box::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+div.containerTop {
+	font-weight: bold;
+	border: 5px solid black;
+	border-bottom: 0px;
+	background-color: #dfdfdf;
+}
+
+div.container {
+	height: 600px;
+	font-weight: bold;
+	border: 5px solid black;
+	border-top: 0px;
+	background-color: #dfdfdf;
+	overflow-y: auto;
+}
+
+div.container.big{
+	height:620px;
+}
+
+div.top {
+	border-bottom: 5px solid black;
+}
+
+div.cryptobox {
+	margin-top: 0px;
+	background-color: white;
+	width: 100%;
+	border-bottom: 5px solid black;
+}
+
+div.stats{
+
+}
+
+body {
+	background-color: #907691;
+	margin: 0%;
+}
+
+th.left {
+	padding-top:15px;
+	padding-left:15px;
+	width: 80%;
+	text-align: left;
+}
+
+th.right{
+}
+
+tr.news{
+	border-bottom:5px solid;
+}
+
+a.news {
+	font-family: "Trebuchet MS";
+	margin-top: 20px;
+	position: relative;
+	font-size: 30px;
+	text-decoration: none
+}
+
+h1.news {
+	font-family: "Trebuchet MS";
+}
+
+h2.news {
+	font-size: 25px;
+	text-align:left;
+}
+
+h2.atkHeading {
+	font-family: "Trebuchet MS";
+	color: red;
+	font-size: 25px;
+	width:60%;
+	margin:0px;
+}
+
+h2.atkHeading.float {
+	font-family: "Trebuchet MS";
+	color: red;
+	font-size: 25px;
+	width: 60%;
+	margin: 0px;
+	float:left;
+}
+
+h3.news {
+	font-size: 20px;
+}
+
+h3.newsTime {
+	font-size: 20px;
+	color:cornflowerblue;
+}
+
+.articleimg {
+	max-width:200px;
+	height: 125px;
+}
+
+h1 {
+	font-family: "Helvetica";
+	font-size: 50px;
+	margin: auto;
+	width: 100%;
+	text-align: left;
+	background-color: #dfdfdf;
+}
+
+h1.top {
+	padding-left: 10px;
+	display: block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+h1.articletop {
+	border-bottom: 5px solid black;
+}
+
+h2.crypto {
+	font-family: "Helvetica";
+	margin: auto;
+	padding: 5px;
+	display: inline;
+	font-size: 25px;
+}
+
+h3.statLeft {
+	font-family: "Helvetica";
+	background-color: #949494;
+	font-size: 35px;
+	padding: 5px;
+	padding-right: 15px;
+	padding-left: 25px;
+	text-align: left;
+	border: 5px solid black;
+	border-left: 0px;
+	position: relative;
+	margin-top: 10px;
+	vertical-align: text-top;
+	left:-3px;
+}
+
+h3.statRight {
+	font-family: "Helvetica";
+	background-color: #949494;
+	font-size: 35px;
+	margin-top: 10px;
+	float: right;
+	display: inline;
+	padding: 5px;
+	padding-right: 15px;
+	padding-left: 25px;
+	text-align: right;
+	border: 5px solid black;
+	border-right: 0px;
+}
+
+h4 {
+	font-family: "Helvetica";
+	font-size: 20px;
+	margin: auto;
+	width: 100%;
+	text-align: left;
+	color: red;
+	background-color: #dfdfdf;
+	padding-bottom:5px;
+}
+
+h4.top {
+	padding-left:10px;
+	display: block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+li {
+	display: inline;
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+
+table.stats{
+	width:100%;
+}
+
+th.statleft{
+	float:left;
+}
+
+th.statright{
+}
+
+@media handheld{
+	.float {
+		width: 85%;
+	}
+}
+
+.filter{
+	background-image: url('/static/searchicon.png');
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	width: 100%;
+	font-size: 16px;
+	padding: 12px 20px 12px 40px;
+	border: 1px solid #ddd;
+	margin-bottom: 1px;
+}
+
+.red {
+	color: red
+}
+
+.green {
+	color: green
+}
